@@ -1,0 +1,37 @@
+ul{
+    width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  right: 0;
+  top:0;
+}
+nav{
+    display: block;
+    unicode-bidi: isolate;
+}
+*{
+    color: red;
+    background-color: aliceblue;
+  }
+@media screen and (min-width:600px) {
+    * {
+      color: black;
+      background-color: aliceblue;
+    }
+  }
+@media screen and (min-width:1025px) {
+    * {
+      color: pink;
+      background-color: aqua;
+    }
+}
+header {
+    position:fixed
+    top: 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content : space-around;
+    align-items:center;
+}
