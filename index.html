@@ -11,24 +11,49 @@
 <body>
     <div id="page-wrapper">
         <header id="header">
-            <img id="header-img"src="https://cdn-icons-png.flaticon.com/256/4193/4193282.png">
-            <div class="logo">
-                
+            <div class="plate">
+                <div class="logo">
+                    <img id="header-img" src="https://cdn-icons-png.flaticon.com/256/4193/4193282.png">
+                </div>
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a class="nav-link" href="#ichi">見どころ！</a></li>
+                        <li><a class="nav-link" href="#ni">スプラトゥーン？</a></li>
+                        <li><a class="nav-link" href="#san">今すぐプレイ！</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav id="nav-bar">
-                <ul>
-                <li><a class="nav-link" href="#ichi">見どころ！</a></li>
-                <li><a class="nav-link" href="#ni">スプラトゥーン？</a></li>
-                <li><a class="nav-link" href="#san">今すぐプレイ！</a></li>
-                </ul>
-            </nav>
         </header>
-        <section id="ichi"></section>
-        <section id="ni">
-            <iframe id="video" height="300" src="https://youtu.be/z0MZh-cUNiA?si=Ipi_NoGsjdytK8cb" frameborder="0"
-                allowfullscreen></iframe>
-        </section>
-        <section id="san"></section>
+        <div class="important">
+            <section id="ichi">
+                <h1>「祈る人」 水城雄</h1>
+                <p>祈る人よ。<br>
+                    あなたはもう忘れてしまったのか。<br>
+                    私たちがやってきた道を。<br>
+                    ここへとつづく道のことを。<br>
+                    連なる尾根と人々の悲しみを越えて、はるか旅してきた道のりを。</p>
+            </section>
+            <section id="ni">
+                <h1>いま、あなたはなにを祈るのか。</h1>
+                <P>あなたは知っている、自分が無力であることを。<br>
+                    あなたはなに不自由なく日々の糧を得、だれからも強制されることなく<br>
+                    好きな場所に行き、さまたげられない眠りについている。<br>
+                    だからといってそれを人に分け与えることはできないし、<br>
+                    まして見も知らぬ他国の人々の境遇を変える力などあなたにはない。
+                </P>
+                <iframe id="video" height="300" src="https://youtu.be/z0MZh-cUNiA?si=Ipi_NoGsjdytK8cb" frameborder="0"
+                    allowfullscreen></iframe>
+            </section>
+            <section id="san">
+                <h1>あなたは祈る。</h1>
+                <p>音楽をかなでながら。<br>
+                    絵を描きながら。<br>
+                    愛する人のために食事を用意しながら。<br>
+                    窓枠をふき、鉢植えに水をやりながら。<br>
+                    あなたは祈り、ただ思いをはせる。<br>
+                    そのことでなにも変わらない、なにも変えることができないと知っていながら</p>
+            </section>
+        </div>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
             <input type="email" id="email" placeholder="email" name="email">
             <input type="submit" id="submit" value="Let's Play" class="btn">
