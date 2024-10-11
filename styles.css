@@ -1,72 +1,112 @@
-ul{
-    width: 90%;
+ul {
+  width: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   position: fixed;
-  right:0;
-  top:0;
-  left:2%
-  padding: 22px; 
+  right: 0;
+  top: 0;
+  margin-top: 25px
 }
-li{
-  
+
+.logo {
+  width: 10%;
+  background-color: red;
 }
+
 header img {
   position: fixed;
-  justify-content:left;
+  justify-content: left;
   max-width: 50px;
-  left:2%;
-  top:2%;
+  padding: 2px;
+  left: 10px;
+  top: 10px;
 }
-nav{
-    display: block;
-}
-*{
-  box-sizing: border-box;  
-  color: red;
-    background-color: aliceblue;
-  }
-@media screen and (max-width:920px) {
-    * {
-      color: black;
-      background-color: aliceblue;
-      flex-wrap: wrap;
-    }
-  }
-@media screen and (min-width:1025px) {
-    * {
-      color: green;
-      background-color: aqua;
-    }
-}
-header {
-    position:fixed;
-    top: 0;
-    padding: 0 20px;
-    display: flex;
-    justify-content : space-around;
-    align-items:center;
-    unicode-bidi: isolate;
-    scroll-padding-left: 500px;
 
+* {
+  box-sizing: border-box;
+  color: red;
+  background-color: aliceblue;
 }
+
+.onegai {
+  color: aliceblue;
+}
+
+@media screen and (max-width:347px) {
+  * {
+    color: black;
+    background-color: black;
+  }
+
+  .onegai {
+    color: yellow;
+    float: top;
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  header img {
+    padding-bottom: 62px;
+
+  }
+}
+
+/*@media screen and (max-width:800px) {
+  * {
+    color: black;
+    background-color:aliceblue;
+    flex-wrap: wrap;
+  }
+
+}*/
+
+@media screen and (min-width:1025px) {
+  * {
+    color: green;
+    background-color: aqua;
+  }
+
+  .onegai {
+    color: aqua;
+  }
+}
+
+header {
+  position: fixed;
+  top: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
 .plate {
-  background-color:purple;
+  background-color: purple;
 }
+
 #form {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
+
 #submit {
   margin-top: 10px;
 }
-::placeholder{
+
+::placeholder {
   text-align: center;
 }
+
 .important {
   text-align: center;
+  margin-top: 50px;
+  padding: 20px;
 }
